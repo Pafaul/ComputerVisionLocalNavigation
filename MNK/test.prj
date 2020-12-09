@@ -1,0 +1,166 @@
+[IC]
+IniAlt=7000
+IniY=0
+IniZ=0
+IniVx=300
+IniVy=0
+IniVz=0
+Iniwx=0
+Iniwy=0
+Iniwz=0
+IniPitch=0
+IniYaw=0
+IniRoll=-45
+AeroDY=0
+AeroDZ=0
+AeroE=0
+TDY=0
+TDZ=0
+GuidNY=0
+GuidNZ=0
+
+MotionMode=2
+
+[ControlSystem]
+TAVS=0.002
+KsiAVS=0.3
+MaxAVS=400
+TAcc=0.0012
+KsiAcc=0.8
+MaxAcc=50
+TAAS=3.13
+KsiAAS=0.5
+MaxAAS=60
+T3=0.003
+T7=0.2
+T25=0.003
+Kwa=0.15
+Kdwa=0.007
+ARef=28
+T9=0.0225
+T10=0.0025
+KAlpha=0.15
+KdNa=0.05
+MaxNCom=60
+T21=0.2
+T24=0.04
+T6=0.0025
+Kn=8
+KnS=0.0165
+Kw=0.4
+KwS=0.04
+Kdw=0.0125
+KdwS=0.0045
+Kcp=44
+T32p=0.0025
+T31p=0
+DMaxp=20
+dDMaxp=500
+Kcr=37
+T32r=0.0019
+T31r=0.036
+DMaxr=20
+dDMaxr=580
+Kwx=0.15
+Kdwx=0.003
+T50=0.03
+T51=0.0015
+T40=0.04
+T41=0.1
+
+[Guidance]
+MaxGuidW=60
+TNav=0.01
+DistMode=1
+OmegaRMS=0.2
+KFi=0.01
+KcRMS=0.005
+Kg0RMS=0.2
+
+
+[Integration]
+WLoc=1
+WVel=10
+WOmega=100
+WQuat=10
+WCS=1000
+T0=0
+Tk=30
+Tolerance=1e-5
+H=0.0005
+NOutStep=20
+OutPutMode=2
+OutPutDestination=1
+
+
+[ResultsFile]
+Name=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\res\result.dat
+
+
+[MassInertia]
+LMissile=2.9
+LWing=0.5
+Ba=0.69
+Middle=0.0228
+SWing=0.233
+M0=110
+ME=70
+Jx0=0.53
+JxE=0.42
+Jz0=57
+JzE=50
+XT0=0.59
+XTE=0.78
+Ta=4.5
+
+[Thrust]
+P0=20000
+Ta=3.5
+Tk=4.5
+LGF=1.25
+KP=0.1
+KDeltaG=0.15
+DeltaGMax=20
+
+
+[Aero]
+AtmoFileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\statmo.cfs
+DeltaEMax=20
+XTIni=0.53
+Kad=0.00003
+Cx0FileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\cx0.cfs
+CxdFileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\cxd.cfs
+CxIndFileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\cxind.cfs
+CyFileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\cy.cfs
+M4ElFileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\m4el.cfs
+MxaFileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\mxa.cfs
+MxadeltaFileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\mxadelta.cfs
+MxOmxFileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\mxomx.cfs
+MzOmzFileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\mzomz.cfs
+K0FileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\K0.cfs
+KdFileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\Kd.cfs
+KdeFileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\Kde.cfs
+MzaFileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\mza.cfs
+Mzdp20FileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\mzd_20.cfs
+Mzdm20FileName=C:\WORK\MAI\Учебный процесс\5 Курс\aa-mis\CFS\mzd-20.cfs
+
+
+[Gravi]
+G0=9.81
+
+
+[Target]
+Range=1200
+Azimuth=-30
+Delta=0
+VT=300
+Theta=0
+Fi=90
+Nx=0
+Ny=0
+Nz=8
+TBM=0
+TEM=20
+Omega=3
+MotionMode=6
+
