@@ -144,13 +144,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AnotherOneDetector.cpp" />
     <ClCompile Include="FASTDetectorWithThreshold.cpp" />
     <ClCompile Include="KeyPointDetector.cpp" />
     <ClCompile Include="VisualKeyPoints.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AnotherOneDetector.h" />
     <ClInclude Include="FASTDetectorWithThreshold.h" />
     <ClInclude Include="KeyPointDetector.h" />
   </ItemGroup>
