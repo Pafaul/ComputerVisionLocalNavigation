@@ -24,18 +24,12 @@
     <ClCompile Include="FASTDetectorWithThreshold.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="AnotherOneDetector.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="KeyPointDetector.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="FASTDetectorWithThreshold.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="AnotherOneDetector.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
