@@ -19,10 +19,6 @@ public:
   void beforeStart() override {};
   void detectPoints(cv::Mat& image, KPInfo** keyPoints, double* param) override;
   void addKeyPoint(KPInfo *KPHolder, KPInfo kp, int kpPerRegion);
-  void findMinMax(cv::Mat& image);
-  uchar pixValueReshaped(uchar pix);
-  void prepareImage(cv::Mat& image);
-  bool kpInRange(KPInfo* KPHolder, KPInfo kp, int kpPerRegion);
   void afterFinish() override {};
   ~FASTDetectorWithThreshold() {};
 };
