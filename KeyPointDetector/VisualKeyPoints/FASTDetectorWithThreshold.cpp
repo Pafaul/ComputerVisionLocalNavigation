@@ -91,7 +91,7 @@ void FASTDetectorWithThreshold::addKeyPoint(KPInfo * kpHolder, KPInfo kp, int kp
 	for (int kpIndex = 0; kpIndex < kpPerRegion; kpIndex++) {
 		if (
 			abs(kp.diff) >= abs(kpHolder[kpIndex].diff) &&
-			!this->kpInRange(kpHolder, kp, kpPerRegion)
+			calcDistance(kp, kpHolder[kpIndex]) >= this->MIN_DISTANCE_BETWEEN_POINTS
 		) {
 			if (kpIndex != kpPerRegion-1) {
 				for (int swapIndex = kpPerRegion-1; swapIndex > kpIndex; swapIndex--) {
